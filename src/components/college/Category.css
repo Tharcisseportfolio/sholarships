@@ -1,0 +1,13 @@
+.list{
+    position: relative ;
+    /* top: 6rem; */
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.list button{
+    font-size: 20px;
+}
+

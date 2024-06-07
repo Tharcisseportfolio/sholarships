@@ -1,0 +1,27 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top:5rem;
+    bottom: 0;
+    width: 200px;
+    background-color: rgb(53, 49, 49);
+    padding: 20px;
+    overflow: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    color:white;
+    font-size: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.sidebar Link{
+    color:white;
+}

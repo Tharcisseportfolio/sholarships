@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-bg);
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.App-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+a {
+  text-decoration: none;
+  font-family: var(--font-family);
+  color: var(--link-color);
+  font-size: 20px;
+}
+
+.gradient__text {
+  color: rgb(108, 102, 102);
+  font-style: bold;
+  font-size: 30px;
+  padding: 6rem;
+  font-style: bold;
+
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+  .section__padding {
+    padding: 2rem 4rem;
+  }
+  .section__margin {
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 2rem 1rem;
+  }
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}

@@ -1,0 +1,15 @@
+.College{
+    position: relative;
+    height: auto;
+}
+
+.college-list-body{
+    background-color: white;
+    height: auto;
+    border-color: rgb(235, 232, 239);
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 14rem;
+    margin-right: 2rem;
+    box-shadow: 0 2px 1px 0 rgb(208, 201, 201);
+}

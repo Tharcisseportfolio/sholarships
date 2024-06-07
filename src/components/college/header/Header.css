@@ -1,0 +1,26 @@
+.college-header{
+    position: relative;
+    display: grid;
+
+    position: relative;
+    padding-top:100px;
+    padding-bottom: 2rem;
+    margin-left: 14rem;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(28, 32, 31); */
+}
+
+ .college-header-text h1{
+    font-size: 28px;
+    font-family: var(--font-family);
+    color: rgb(234, 240, 243);
+    margin-bottom: 1rem;
+}
+
+.college-header-text p{
+    font-size: 20px;
+    font-family: var(--font-family-secondary);
+    color: rgb(9, 231, 220);
+    margin-bottom: 1rem;
+}

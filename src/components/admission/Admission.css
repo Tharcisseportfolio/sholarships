@@ -1,0 +1,131 @@
+.admission {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+
+.admission-info {
+    background-color: #fafafb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(242, 235, 235, 0.1);
+    padding: 10px;
+    width: 100%;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+
+
+.admission-info-header h1,
+.admission-info-header h2 {
+    text-align: center;
+    color: #f10808;
+}
+
+
+.admission-info-content p {
+    text-align: center;
+    margin: 10px 5rem;
+    color: #323235;
+    font-size: 20px;
+}
+
+
+.admission-info-button {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.admission-info-button button {
+    min-height: 50px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #f10808;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 800px) {
+    .admission {
+        width: 100%;
+        padding: 2rem;
+    }
+    .admission-info {
+        width: 100%;
+        max-width: 100%;
+        padding:1rem;
+        margin:1rem;
+    }
+    
+    .admission-info-content p {
+        margin: 5px 2rem;
+    }
+
+    .admission-info-button{
+        display: flex;
+        gap: 1rem;
+
+    }
+    
+    .admission-info-button button {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .admission {
+        padding: 2rem;
+    }
+    .admission-info {
+        max-width: 100%;
+        padding:1rem;
+        margin:1rem;
+    }
+    
+    .admission-info-content p {
+        margin: 5px 2rem;
+    }
+
+    .admission-info-button{
+        display: flex;
+        gap: 1rem;
+
+    }
+    
+    .admission-info-button button {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .admission {
+        width: 100%;
+        padding: 1rem;
+    }
+    .admission-info {
+        max-width: 100%;
+    }
+    
+    .admission-info-content p {
+        margin: 1rem;
+        font-size: 18px;
+    }
+    
+    .admission-info-button button {
+        width: 100%;
+        height: auto;
+    }
+}
